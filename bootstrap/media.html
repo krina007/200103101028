@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        #D1{
+            color: aqua;
+            background-color: navy;
+            height: 100vh;
+            text-align: center;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        #box{
+            background-color: rgb(135, 104, 104);
+            width: 10vh;
+            height: 10vh;
+        }
+
+        @media (max-width: 200px ){
+            #D1 {
+                color: rgb(16, 42, 33);
+                background-color: rgb(106, 90, 213);
+                height: 50vh;
+            }
+
+            
+        }
+        @media (max-width: 350px) And (min-width: 200px) {
+            #D1 {
+                color: rgb(16, 42, 30);
+                background-color: rgb(128, 207, 198);
+                height: 60vh;
+            }
+
+            
+        }
+        @media (max-width: 500px ) And (min-width : 350px) {
+            #D1 {
+                color: rgb(16, 42, 33);
+                background-color: rgb(137, 213, 90);
+                height: 70vh;
+            }
+
+            
+        }
+        @media (max-width: 650px) And (min-width :500px){
+            #D1 {
+                color: rgb(16, 42, 33);
+                background-color: rgb(213, 184, 90);
+                height: 80vh;
+            }
+
+            
+        }
+        @media (max-width: 800px ) And (min-width: 650px) {
+            #D1 {
+                color: rgb(16, 42, 33);
+                background-color: rgb(240, 133, 119);
+                height: 90vh;
+            }
+
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="D1">
+        <div id="box">
+            i am good
+        </div>
+    </div>
+</body>
+</html>
+

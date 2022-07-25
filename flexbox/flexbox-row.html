@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .box{
+            height: 50vh;
+            background-color: #57b6d892;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            justify-content: center;
+            /* flex-flow: row ; */
+
+        }
+
+        .box>div {
+            padding: 5px;
+            height: 100px;
+            width: 100px;
+            margin: 5px;
+            background-color: #2596be;
+            text-align: left;
+            align-content: space-between
+            
+        }
+
+        #item7{
+            order: -1; 
+            align-self: center;
+        }
+        #item10{
+            order: -2; 
+            align-self: flex-end;
+        }
+    </style>
+    <title>flex box</title>
+</head>
+
+<body>
+    <div class="box">
+        <div id="item1">1</div>
+        <div id="item2">2</div>
+        <div id="item3">3</div>
+        <div id="item4">4</div>
+        <div id="item5">5</div>
+        <div id="item6">6</div>
+        <div id="item7">7</div>
+        <div id="item8">8</div>
+        <div id="item9">9</div>
+        <div id="item10">10</div>
+    </div>
+</body>
+
+</html>
